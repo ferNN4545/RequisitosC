@@ -6,7 +6,7 @@ include 'conexion.php';
 
 <div class= "container">
 <!-- Default form subscription -->
-<form class="text-center border border-light p-5" action="#!">
+<form class="text-center border border-light p-5" action="registrarFac.php" method="POST">
 
     <p class="h4 mb-4">Registro de facultades</p>
 
