@@ -6,28 +6,29 @@ include 'conexion.php';
 
 <div class= "container">
 <form>
-  <!-- Name input -->
-  <div class="form-outline mb-4">
-    <input type="text" id="form5Example1" class="form-control" />
-    <label class="form-label" for="form5Example1">Codigo</label>
-  </div>
+<!-- Default form subscription -->
+<form class="text-center border border-light p-5" action="#!">
 
-  <!-- Email input -->
-  <div class="form-outline mb-4">
-    <input type="email" id="form5Example2" class="form-control" />
-    <label class="form-label" for="form5Example2">Nombre</label>
-  </div>
+    <p class="h4 mb-4">Subscribe</p>
 
-  <!-- Checkbox -->
-  <div class="form-check d-flex justify-content-center mb-4">
-    <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
-    <label class="form-check-label" for="form5Example3">
-      I have read and agree to the terms
-    </label>
-  </div>
+    <p>Join our mailing list. We write rarely, but only the best content.</p>
 
-  <!-- Submit button -->
-  <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+    <p>
+        <a href="" target="_blank">See the last newsletter</a>
+    </p>
+
+    <!-- Name -->
+    <input type="text" id="codigoFac" name="codigoFac" class="form-control mb-4" placeholder="Codigo">
+
+    <!-- Email -->
+    <input type="text" id="nombreFac" name="nombreFac" class="form-control mb-4" placeholder="Nombre">
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block" type="submit">Enviar</button>
+
+
+</form>
+<!-- Default form subscription -->
 </form>
 
 </div>
