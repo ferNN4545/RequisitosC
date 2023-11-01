@@ -5,16 +5,15 @@ include 'conexion.php';
 ?>
 
 <div class= "container">
-<form>
 <!-- Default form subscription -->
 <form class="text-center border border-light p-5" action="#!">
 
-    <p class="h4 mb-4">Subscribe</p>
+    <p class="h4 mb-4">Registro de facultades</p>
 
-    <p>Join our mailing list. We write rarely, but only the best content.</p>
+    <p>Registra una nueva facultad</p>
 
     <p>
-        <a href="" target="_blank">See the last newsletter</a>
+        <a href="" target="_blank">Ver las facultades registradas</a>
     </p>
 
     <!-- Name -->
@@ -29,6 +28,5 @@ include 'conexion.php';
 
 </form>
 <!-- Default form subscription -->
-</form>
 
 </div>
