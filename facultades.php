@@ -29,7 +29,7 @@ include 'conexion.php';
                 echo "<td>".$row["nombreFac"]."</td>";
                 echo "<td>
                     <a class='btn btn-success'>Editar</a>
-                    <a class='btn btn-danger'>Eliminar</a>
+                    <a class='btn btn-danger' href='eliminarFac.php?id=".$row["codigoFac"]."'>Eliminar</a>
                     </td>";
                 echo "</tr>";
             }
