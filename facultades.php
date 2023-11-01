@@ -5,8 +5,9 @@ include 'conexion.php';
 
 <h1> Listado de facultades </h1>
 
-<div align="right">
-  <button type="button" class="btn btn-danger">Danger</button>
+<div align ="right">
+  <a class = "btn btn-primary" href="git_registro_facultades"> Adicionar </a>
+</div>
 
 
 <table class="table">
@@ -24,8 +25,8 @@ include 'conexion.php';
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                 echo "<tr>";
-                echo "<td>".$row["codigo_fac"]."</td>";
-                echo "<td>".$row["nombre_fac"]."</td>";
+                echo "<td>".$row["codigoFac"]."</td>";
+                echo "<td>".$row["nombreFac"]."</td>";
                 echo "<td>
                     <a class='btn btn-success'>Editar</a>
                     <a class='btn btn-danger'>Eliminar</a>
